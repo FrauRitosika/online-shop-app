@@ -423,12 +423,6 @@
         transform: translateY(-100%);
     }
 
-    .main-navigation:active .main-navigation__link-list,
-    .main-navigation:hover .main-navigation__link-list {
-		opacity: 1;
-		transform: translateY(0);
-	}
-
     .header__container-fast-access {
         display: none;
     }
@@ -592,12 +586,6 @@
         transition: all 0.3s;
         transform: translateY(-100%);
     }
-
-    .main-navigation:active .main-navigation__link-list,
-    .main-navigation:hover .main-navigation__link-list {
-		opacity: 1;
-		transform: translateY(0);
-	}
 
     .header__container-fast-access {
         display: none;
@@ -937,7 +925,7 @@
         height: 21.27px;
         border: none;
         background-color: transparent;
-        background-image: url('./images/search-normal.png');
+        background-image: url('./images/search-normal.svg');
         background-size: contain;
         background-repeat: no-repeat;
         cursor: pointer;
